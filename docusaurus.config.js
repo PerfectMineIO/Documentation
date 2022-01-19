@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Perfect Mine Documentation',
   tagline: 'Optimize. Manage. Profit.',
   url: 'https://perfectmine.io/docs/',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'PMv2', // Usually your GitHub org/user name.
+  organizationName: 'PerfectMineIO', // Usually your GitHub org/user name.
   projectName: 'Documentation', // Usually your repo name.
 
   presets: [
