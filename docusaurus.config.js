@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Perfect Mine Documentation',
   tagline: 'Optimize. Manage. Profit.',
-  url: 'https://perfectmine.com/docs/',
-  baseUrl: '/docs/',
+  url: 'https://perfectmine.io/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -22,7 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/PMv2/Documentation/',
+          editUrl: 'https://github.com/PerfectMineIO/Documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -48,7 +48,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Getting Started',
           },
           {
-            href: 'https://github.com/PMv2/Documentation',
+            href: 'https://github.com/PerfectMineIO/Documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,7 +88,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/PMv2/Documentation',
+                href: 'https://github.com/PerfectMineIO/Documentation',
               },
             ],
           },
